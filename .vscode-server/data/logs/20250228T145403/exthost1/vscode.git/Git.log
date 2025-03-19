@@ -1,0 +1,34 @@
+2025-02-28 14:54:17.907 [info] [main] Log level: Info
+2025-02-28 14:54:17.907 [info] [main] Validating found git in: "git"
+2025-02-28 14:54:17.907 [info] [main] Using git "2.43.0" from "git"
+2025-02-28 14:54:17.907 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 14:54:17.907 [info] > git rev-parse --show-toplevel [66ms]
+2025-02-28 14:54:17.907 [info] > git rev-parse --git-dir --git-common-dir [793ms]
+2025-02-28 14:54:17.908 [info] [Model][openRepository] Opened repository: /home/edouard/Developpez-le-front-end-en-utilisant-Angular
+2025-02-28 14:54:17.996 [info] > git rev-parse --show-toplevel [76ms]
+2025-02-28 14:54:17.997 [info] > git config --get commit.template [81ms]
+2025-02-28 14:54:18.034 [info] > git rev-parse --show-toplevel [27ms]
+2025-02-28 14:54:18.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-02-28 14:54:18.049 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-28 14:54:18.075 [info] > git rev-parse --show-toplevel [16ms]
+2025-02-28 14:54:18.077 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-28 14:54:18.104 [info] > git status -z -uall [19ms]
+2025-02-28 14:54:18.104 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-28 14:54:18.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [156ms]
+2025-02-28 14:54:18.292 [info] > git config --get commit.template [51ms]
+2025-02-28 14:54:18.294 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-02-28 14:54:18.347 [info] > git show --textconv :src/app/core/guards/auth.guard.ts [31ms]
+2025-02-28 14:54:18.348 [info] > git ls-files --stage -- /home/edouard/Developpez-le-front-end-en-utilisant-Angular/src/app/core/guards/auth.guard.ts [27ms]
+2025-02-28 14:54:18.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2025-02-28 14:54:18.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [55ms]
+2025-02-28 14:54:18.370 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-02-28 14:54:18.377 [info] > git cat-file -s e92b7e1edc39e103196d61b262c100a8e0ac440e [24ms]
+2025-02-28 14:54:18.394 [info] > git status -z -uall [8ms]
+2025-02-28 14:54:18.394 [info] > git diff --name-status -z --diff-filter=ADMR 6d61740d31bbbc57b15d92f8b824ce3cbaf46270...refs/remotes/origin/main [17ms]
+2025-02-28 14:54:18.691 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [299ms]
+2025-02-28 14:54:18.704 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-28 14:54:18.737 [info] > git blame --root --incremental 6d61740d31bbbc57b15d92f8b824ce3cbaf46270 -- /home/edouard/Developpez-le-front-end-en-utilisant-Angular/src/app/core/guards/auth.guard.ts [21ms]
+2025-02-28 14:54:18.859 [info] > git config --get commit.template [1ms]
+2025-02-28 14:54:18.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-28 14:54:18.880 [info] > git status -z -uall [11ms]
+2025-02-28 14:54:18.881 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]

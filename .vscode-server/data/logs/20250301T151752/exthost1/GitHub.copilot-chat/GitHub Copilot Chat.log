@@ -1,0 +1,43 @@
+2025-03-01 15:18:07.568 [info] Can't use the Electron fetcher in this environment.
+2025-03-01 15:18:07.568 [info] Using the Node fetch fetcher.
+2025-03-01 15:18:07.568 [info] Initializing Git extension service.
+2025-03-01 15:18:07.568 [info] Successfully activated the vscode.git extension.
+2025-03-01 15:18:07.568 [info] Enablement state of the vscode.git extension: true.
+2025-03-01 15:18:07.568 [info] Successfully registered Git commit message provider.
+2025-03-01 15:18:08.156 [info] Logged in as Edouard06
+2025-03-01 15:18:08.911 [info] Got Copilot token for Edouard06
+2025-03-01 15:18:09.368 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 15:18:09.368 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-01 15:18:09.386 [info] Registering default platform agent...
+2025-03-01 15:18:10.900 [info] Fetched model metadata in 1980ms f4205f04-2e54-4e05-899f-3abc92530579
+2025-03-01 15:18:11.028 [info] activationBlocker from 'languageModelAccess' took for 1776ms
+2025-03-01 15:33:48.954 [info] Fetched model metadata in 2297ms 55a032c1-a7a7-4146-aca0-234c02e3e2b3
+2025-03-01 15:44:16.332 [info] Logged in as Edouard06
+2025-03-01 15:44:17.013 [info] Got Copilot token for Edouard06
+2025-03-01 15:44:17.331 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 15:44:18.108 [info] Fetched model metadata in 618ms 47a0ad1b-f73a-472a-9848-e398d27eff1f
+2025-03-01 16:10:34.846 [info] Logged in as Edouard06
+2025-03-01 16:10:35.487 [info] Got Copilot token for Edouard06
+2025-03-01 16:10:35.819 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 16:10:36.615 [info] Fetched model metadata in 643ms d5ef6a3f-60c4-42e6-b0e2-c818c97a463a
+2025-03-01 16:26:18.297 [info] Fetched model metadata in 640ms a119f9de-d6db-4e5d-843c-8baa16ff4c5b
+2025-03-01 16:36:39.454 [info] Logged in as Edouard06
+2025-03-01 16:36:40.211 [info] Got Copilot token for Edouard06
+2025-03-01 16:36:40.530 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 17:02:50.151 [info] Logged in as Edouard06
+2025-03-01 17:02:50.774 [info] Got Copilot token for Edouard06
+2025-03-01 17:02:51.090 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 17:02:51.838 [info] Fetched model metadata in 587ms 88de9596-a3a2-4e05-9d6a-067fbcdbf539
+2025-03-01 17:18:43.581 [info] Fetched model metadata in 585ms 87cc6e58-ea5d-4422-b2cf-6c2d0d1339ea
+2025-03-01 17:29:15.598 [info] Logged in as Edouard06
+2025-03-01 17:29:16.201 [info] Got Copilot token for Edouard06
+2025-03-01 17:29:16.511 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 17:44:59.591 [info] Fetched model metadata in 618ms 3d032191-c7ad-4628-b6de-cf192b6b9f78
+2025-03-01 17:55:20.650 [info] Logged in as Edouard06
+2025-03-01 17:55:21.284 [info] Got Copilot token for Edouard06
+2025-03-01 17:55:21.617 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-01 17:55:22.368 [info] Fetched model metadata in 569ms 2ee5f7f7-ea2e-4876-b135-c4989f7cd104
+2025-03-01 18:11:07.514 [info] Fetched model metadata in 569ms f71b0ad8-d5a2-4476-a0a7-2b5d7d0913dd
+2025-03-01 18:21:35.686 [info] Logged in as Edouard06
+2025-03-01 18:21:38.121 [info] Got Copilot token for Edouard06
+2025-03-01 18:21:38.444 [info] copilot token chat_enabled: true, sku: free_educational

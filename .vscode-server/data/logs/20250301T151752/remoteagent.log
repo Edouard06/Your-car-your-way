@@ -1,0 +1,14 @@
+2025-03-01 15:17:52.756 [info] 
+
+
+
+
+2025-03-01 15:17:52.773 [info] Extension host agent started.
+2025-03-01 15:17:52.959 [info] [127.0.0.1][6990bc5a][ManagementConnection] New connection established.
+2025-03-01 15:17:53.055 [info] [127.0.0.1][ed62f24d][ExtensionHostConnection] New connection established.
+2025-03-01 15:18:03.122 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-03-01 15:18:03.124 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-03-01 15:18:03.124 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-03-01 15:18:03.130 [info] [127.0.0.1][ed62f24d][ExtensionHostConnection] <666> Launched Extension Host Process.
+2025-03-01 18:36:13.621 [info] [127.0.0.1][6990bc5a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-01 18:36:14.087 [info] [127.0.0.1][ed62f24d][ExtensionHostConnection] <666> Extension Host Process exited with code: 0, signal: null.

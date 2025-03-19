@@ -1,0 +1,41 @@
+2025-02-25 17:24:01.078 [info] [main] Log level: Info
+2025-02-25 17:24:01.078 [info] [main] Validating found git in: "git"
+2025-02-25 17:24:01.078 [info] [main] Using git "2.43.0" from "git"
+2025-02-25 17:24:01.078 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 17:24:01.078 [info] > git rev-parse --show-toplevel [624ms]
+2025-02-25 17:24:01.078 [info] > git rev-parse --git-dir --git-common-dir [34ms]
+2025-02-25 17:24:01.078 [info] [Model][openRepository] Opened repository: /home/edouard/P3-Full-Stack-portail-locataire
+2025-02-25 17:24:01.110 [info] > git rev-parse --show-toplevel [19ms]
+2025-02-25 17:24:01.111 [info] > git config --get commit.template [26ms]
+2025-02-25 17:24:01.138 [info] > git rev-parse --show-toplevel [20ms]
+2025-02-25 17:24:01.160 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-25 17:24:01.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-02-25 17:24:01.170 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/edouard/P3-Full-Stack-portail-locataire/.git/refs/remotes/origin/main'
+2025-02-25 17:24:01.174 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 17:24:01.185 [info] > git rev-parse --show-toplevel [20ms]
+2025-02-25 17:24:01.187 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 17:24:01.189 [info] > git status -z -uall [10ms]
+2025-02-25 17:24:01.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-25 17:24:01.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-02-25 17:24:01.235 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-25 17:24:01.242 [info] > git config --get commit.template [32ms]
+2025-02-25 17:24:01.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [95ms]
+2025-02-25 17:24:01.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-25 17:24:01.348 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/edouard/P3-Full-Stack-portail-locataire/.git/refs/remotes/origin/main'
+2025-02-25 17:24:01.358 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-02-25 17:24:01.369 [info] > git diff --name-status -z --diff-filter=ADMR 483c4e187feba209fb6621c59e4089228e0c119e...refs/remotes/origin/main [7ms]
+2025-02-25 17:24:01.370 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2025-02-25 17:24:01.645 [info] > git status -z -uall [272ms]
+2025-02-25 17:24:01.652 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [274ms]
+2025-02-25 17:24:01.673 [info] > git check-ignore -v -z --stdin [22ms]
+2025-02-25 17:24:01.674 [info] > git show --textconv :src/main.ts [6ms]
+2025-02-25 17:24:01.675 [info] > git ls-files --stage -- /home/edouard/P3-Full-Stack-portail-locataire/src/main.ts [3ms]
+2025-02-25 17:24:01.681 [info] > git config --get commit.template [19ms]
+2025-02-25 17:24:01.681 [info] > git cat-file -s 02c4ccda3d1f1224e208472990c3f0804d76d2ad [1ms]
+2025-02-25 17:24:01.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-25 17:24:01.695 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/edouard/P3-Full-Stack-portail-locataire/.git/refs/remotes/origin/main'
+2025-02-25 17:24:01.700 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 17:24:01.719 [info] > git status -z -uall [14ms]
+2025-02-25 17:24:01.722 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-02-25 17:24:01.795 [info] > git blame --root --incremental 67bbd223c932dfbb8da190d5fcbe58ac547d5158 -- /home/edouard/P3-Full-Stack-portail-locataire/src/main.ts [5ms]
+2025-02-25 17:25:31.416 [info] > git check-ignore -v -z --stdin [2ms]

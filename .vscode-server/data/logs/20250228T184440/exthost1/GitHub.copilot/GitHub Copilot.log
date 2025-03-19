@@ -1,0 +1,5 @@
+2025-02-28 18:44:54.088 [info] [certificates] Removed 1 expired certificates
+2025-02-28 18:44:54.629 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-02-28 18:44:54.629 [info] [code-referencing] Public code references are enabled.
+2025-02-28 18:44:55.235 [info] [customModels] Available generic completion model: copilot-codex
+2025-02-28 18:44:55.236 [info] [customModels] Available generic completion model: gpt-4o-copilot

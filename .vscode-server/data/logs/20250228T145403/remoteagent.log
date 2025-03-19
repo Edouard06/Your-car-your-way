@@ -1,0 +1,21 @@
+2025-02-28 14:54:03.378 [info] 
+
+
+
+
+2025-02-28 14:54:03.404 [info] Extension host agent started.
+2025-02-28 14:54:03.546 [info] [127.0.0.1][462cf7c7][ManagementConnection] New connection established.
+2025-02-28 14:54:03.712 [info] [127.0.0.1][a9b8274c][ExtensionHostConnection] New connection established.
+2025-02-28 14:54:13.643 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 14:54:13.645 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 14:54:13.647 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 14:54:13.651 [info] [127.0.0.1][a9b8274c][ExtensionHostConnection] <1438> Launched Extension Host Process.
+2025-02-28 14:54:15.335 [info] Getting Manifest... angular.ng-template
+2025-02-28 14:54:15.685 [info] Installing extension: angular.ng-template {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-02-28 14:54:18.783 [info] Extension signature verification result for angular.ng-template: Success. Executed: true. Duration: 1402ms.
+2025-02-28 14:54:20.632 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/angular.ng-template-19.2.0: angular.ng-template
+2025-02-28 14:54:20.696 [info] Renamed to /home/edouard/.vscode-server/extensions/angular.ng-template-19.2.0
+2025-02-28 14:54:20.710 [info] Marked extension as removed angular.ng-template-19.1.0
+2025-02-28 14:54:20.717 [info] Extension installed successfully: angular.ng-template file:///home/edouard/.vscode-server/extensions/extensions.json
+2025-02-28 14:54:22.953 [info] [127.0.0.1][462cf7c7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-28 14:54:23.121 [info] [127.0.0.1][a9b8274c][ExtensionHostConnection] <1438> Extension Host Process exited with code: 0, signal: null.

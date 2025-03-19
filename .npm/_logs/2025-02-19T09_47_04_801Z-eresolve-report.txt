@@ -1,0 +1,20 @@
+'Log files:
+/home/edouard/.npm/_logs/2025-02-19T09_47_04_801Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: olympic-games-starter@0.0.0
+Found: @angular/common@18.2.13
+node_modules/@angular/common
+  @angular/common@"^18.0.3" from the root project
+
+Could not resolve dependency:
+peer @angular/common@"^19.0.0 || ^20.0.0" from @angular/cdk@19.1.4
+node_modules/@angular/cdk
+  peer @angular/cdk@">=19.0.0" from ng2-charts@8.0.0
+  node_modules/ng2-charts
+    ng2-charts@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

@@ -1,0 +1,22 @@
+2025-03-03 20:43:46.126 [info] Extension host with pid 637 started
+2025-03-03 20:43:46.142 [info] Lock '/home/edouard/.vscode-server/data/User/workspaceStorage/8604512a18d4a501aec9de2d6d8fe188/vscode.lock': Lock acquired.
+2025-03-03 20:43:46.179 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-03 20:43:46.195 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:pom.xml'
+2025-03-03 20:43:46.283 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: true, activationEvent: 'workspaceContains:pom.xml'
+2025-03-03 20:43:46.419 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-03 20:43:46.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-03 20:43:46.559 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-03 20:43:46.559 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-03 20:43:46.559 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-03 20:43:46.560 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-03 20:43:46.863 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2025-03-03 20:43:47.559 [info] Eager extensions activated
+2025-03-03 20:43:47.559 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-03 20:43:47.559 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-03 20:43:47.560 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-03-03 20:43:47.560 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-03-03 20:43:57.821 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, scandir '/home/edouard/.vscode-server/data/User/workspaceStorage/8604512a18d4a501aec9de2d6d8fe188/redhat.java'
+    at Function.e (file:///home/edouard/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:112:9126)
+    at Object.readDirectory (file:///home/edouard/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/out/vs/workbench/api/node/extensionHostProcess.js:112:7266)
+2025-03-03 20:54:26.892 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-03-03 21:54:36.009 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

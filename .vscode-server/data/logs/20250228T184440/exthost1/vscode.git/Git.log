@@ -1,0 +1,49 @@
+2025-02-28 18:44:53.711 [info] [main] Log level: Info
+2025-02-28 18:44:53.711 [info] [main] Validating found git in: "git"
+2025-02-28 18:44:53.711 [info] [main] Using git "2.43.0" from "git"
+2025-02-28 18:44:53.711 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 18:44:53.711 [info] > git rev-parse --show-toplevel [547ms]
+2025-02-28 18:44:53.711 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-28 18:44:53.874 [info] > git rev-parse --show-toplevel [135ms]
+2025-02-28 18:44:53.885 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-28 18:44:53.894 [info] [Model][openRepository] Opened repository: /home/edouard/projects/springsecurityauth
+2025-02-28 18:44:53.898 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-02-28 18:44:53.919 [info] > git config --get commit.template [11ms]
+2025-02-28 18:44:53.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-02-28 18:44:53.994 [info] > git status -z -uall [14ms]
+2025-02-28 18:44:53.996 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-28 18:44:54.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-28 18:44:54.292 [info] > git config --get commit.template [256ms]
+2025-02-28 18:44:54.296 [info] > git config --get --local branch.main.vscode-merge-base [253ms]
+2025-02-28 18:44:54.296 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-28 18:44:54.311 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2025-02-28 18:44:54.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-28 18:44:54.320 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-02-28 18:44:54.320 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-28 18:44:54.320 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-28 18:44:54.373 [info] > git status -z -uall [39ms]
+2025-02-28 18:44:54.374 [info] > git merge-base refs/heads/main refs/remotes/origin/main [48ms]
+2025-02-28 18:44:54.385 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2025-02-28 18:44:54.409 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-02-28 18:44:54.414 [info] > git diff --name-status -z --diff-filter=ADMR 0c4543bef5bf01fb67f47e072688aa5ca9f95f45...refs/remotes/origin/main [31ms]
+2025-02-28 18:44:54.419 [info] > git diff --name-status -z --diff-filter=ADMR 0c4543bef5bf01fb67f47e072688aa5ca9f95f45...refs/remotes/origin/main [5ms]
+2025-02-28 18:44:54.419 [info] > git config --get commit.template [17ms]
+2025-02-28 18:44:54.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-28 18:44:54.446 [info] > git status -z -uall [10ms]
+2025-02-28 18:44:54.447 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-28 18:44:54.466 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-28 18:44:55.009 [info] > git show --textconv :src/main/java/com/openclassrooms/springsecurityauth/controller/TestController.java [6ms]
+2025-02-28 18:44:55.010 [info] > git ls-files --stage -- /home/edouard/projects/springsecurityauth/src/main/java/com/openclassrooms/springsecurityauth/controller/TestController.java [2ms]
+2025-02-28 18:44:55.016 [info] > git cat-file -s bbb9c8e4afd4dab195ebf8a20d99a09c26c8b17b [1ms]
+2025-02-28 18:44:55.259 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-28 18:44:56.965 [info] > git check-ignore -v -z --stdin [14ms]
+2025-02-28 18:44:57.180 [info] > git show --textconv :src/main/java/com/openclassrooms/springsecurityauth/model/Message.java [5ms]
+2025-02-28 18:44:57.181 [info] > git ls-files --stage -- /home/edouard/projects/springsecurityauth/src/main/java/com/openclassrooms/springsecurityauth/model/Message.java [2ms]
+2025-02-28 18:44:57.186 [info] > git cat-file -s ba0e7a3b479fe955261d9be2d919bc97beea3316 [2ms]
+2025-02-28 18:44:57.408 [info] > git show --textconv :src/main/java/com/openclassrooms/springsecurityauth/model/Rental.java [6ms]
+2025-02-28 18:44:57.409 [info] > git ls-files --stage -- /home/edouard/projects/springsecurityauth/src/main/java/com/openclassrooms/springsecurityauth/model/Rental.java [2ms]
+2025-02-28 18:44:57.414 [info] > git cat-file -s b8c45ebc9548ae9843d3a7e31bb3e9a4036878d2 [2ms]
+2025-02-28 18:44:57.688 [info] > git show --textconv :src/main/java/com/openclassrooms/springsecurityauth/model/User.java [6ms]
+2025-02-28 18:44:57.689 [info] > git ls-files --stage -- /home/edouard/projects/springsecurityauth/src/main/java/com/openclassrooms/springsecurityauth/model/User.java [2ms]
+2025-02-28 18:44:57.695 [info] > git cat-file -s f17505b46b3012276dd7695c9457523f19614169 [1ms]
+2025-02-28 18:45:04.344 [info] > git rev-parse --show-toplevel [2ms]

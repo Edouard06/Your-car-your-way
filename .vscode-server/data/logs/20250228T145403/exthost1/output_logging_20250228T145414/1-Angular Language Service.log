@@ -1,0 +1,9 @@
+package.json roots detected: /home/edouard/Developpez-le-front-end-en-utilisant-Angular/.angular/cache/19.1.7/olympic-games-starter/vite/deps_ssr,
+  /home/edouard/Developpez-le-front-end-en-utilisant-Angular/.angular/cache/19.1.7/olympic-games-starter/vite/deps,
+  /home/edouard/Developpez-le-front-end-en-utilisant-Angular
+Using Angular version 19.1.6.
+[Info  - 2:54:17 PM] Angular language server process ID: 1493
+[Info  - 2:54:17 PM] Imported typescript/lib/tsserverlibrary is version 5.7.2.
+[Info  - 2:54:17 PM] Using @angular/language-service v19.1.4 from /home/edouard/.vscode-server/extensions/angular.ng-template-19.1.0/node_modules/@angular/language-service/index.js
+[Info  - 2:54:17 PM] Logging is turned off. To enable, run command 'Open Angular server log'.
+[Info  - 2:54:20 PM] Enabling language service for /home/edouard/Developpez-le-front-end-en-utilisant-Angular/tsconfig.json.

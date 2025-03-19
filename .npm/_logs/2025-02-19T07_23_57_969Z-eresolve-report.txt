@@ -1,0 +1,31 @@
+'Log files:
+/home/edouard/.npm/_logs/2025-02-19T07_23_57_969Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: olympic-games-starter@0.0.0
+Found: @angular/platform-browser@18.0.4
+node_modules/@angular/platform-browser
+  peer @angular/platform-browser@"18.0.4" from @angular/forms@18.0.4
+  node_modules/@angular/forms
+    @angular/forms@"^18.0.3" from the root project
+  peer @angular/platform-browser@"18.0.4" from @angular/platform-browser-dynamic@18.0.4
+  node_modules/@angular/platform-browser-dynamic
+    @angular/platform-browser-dynamic@"^18.0.3" from the root project
+  peer @angular/platform-browser@"18.0.4" from @angular/router@18.0.4
+  node_modules/@angular/router
+    @angular/router@"^18.0.3" from the root project
+  @angular/platform-browser@"^18.0.3" from the root project
+
+Could not resolve dependency:
+@angular/platform-browser@"^18.0.3" from the root project
+
+Conflicting peer dependency: @angular/core@18.2.13
+node_modules/@angular/core
+  peer @angular/core@"18.2.13" from @angular/platform-browser@18.2.13
+  node_modules/@angular/platform-browser
+    @angular/platform-browser@"^18.0.3" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

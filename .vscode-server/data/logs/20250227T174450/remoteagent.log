@@ -1,0 +1,23 @@
+2025-02-27 17:44:50.641 [info] 
+
+
+
+
+2025-02-27 17:44:50.655 [info] Extension host agent started.
+2025-02-27 17:44:50.796 [info] [127.0.0.1][43dff4b5][ManagementConnection] New connection established.
+2025-02-27 17:44:52.066 [info] [127.0.0.1][9872021d][ExtensionHostConnection] New connection established.
+2025-02-27 17:45:02.069 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-27 17:45:02.071 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-27 17:45:02.073 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-27 17:45:02.076 [info] [127.0.0.1][9872021d][ExtensionHostConnection] <588> Launched Extension Host Process.
+2025-02-27 19:01:08.144 [info] [127.0.0.1][43dff4b5][ManagementConnection] The client has reconnected.
+2025-02-27 19:01:08.278 [info] [127.0.0.1][9872021d][ExtensionHostConnection] The client has reconnected.
+2025-02-27 19:01:21.944 [info] [127.0.0.1][9872021d][ExtensionHostConnection] The client has reconnected.
+2025-02-27 19:01:27.625 [info] [127.0.0.1][9872021d][ExtensionHostConnection] The client has reconnected.
+2025-02-27 19:01:41.531 [info] [127.0.0.1][43dff4b5][ManagementConnection] The client has reconnected.
+2025-02-27 19:02:28.937 [info] [127.0.0.1][43dff4b5][ManagementConnection] The client has reconnected.
+2025-02-27 19:02:29.046 [info] [127.0.0.1][9872021d][ExtensionHostConnection] The client has reconnected.
+2025-02-27 21:58:01.871 [info] [127.0.0.1][9872021d][ExtensionHostConnection] The client has reconnected.
+2025-02-27 21:58:07.023 [info] [127.0.0.1][43dff4b5][ManagementConnection] The client has reconnected.
+2025-02-27 21:59:59.837 [info] [127.0.0.1][43dff4b5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-27 22:00:00.326 [info] [127.0.0.1][9872021d][ExtensionHostConnection] <588> Extension Host Process exited with code: 0, signal: null.

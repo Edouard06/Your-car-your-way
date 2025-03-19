@@ -1,0 +1,18 @@
+'Log files:
+/home/edouard/.npm/_logs/2025-02-17T13_33_28_167Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: olympic-games-starter@0.0.0
+Found: @angular/compiler-cli@18.2.13
+node_modules/@angular/compiler-cli
+  dev @angular/compiler-cli@"^18.0.3" from the root project
+
+Could not resolve dependency:
+peer @angular/compiler-cli@"^19.0.0" from @angular-devkit/build-angular@19.1.7
+node_modules/@angular-devkit/build-angular
+  dev @angular-devkit/build-angular@"^19.1.7" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

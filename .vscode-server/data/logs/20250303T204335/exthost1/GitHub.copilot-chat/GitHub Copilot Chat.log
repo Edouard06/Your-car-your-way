@@ -1,0 +1,24 @@
+2025-03-03 20:43:49.416 [info] Can't use the Electron fetcher in this environment.
+2025-03-03 20:43:49.416 [info] Using the Node fetch fetcher.
+2025-03-03 20:43:49.416 [info] Initializing Git extension service.
+2025-03-03 20:43:49.416 [info] Successfully activated the vscode.git extension.
+2025-03-03 20:43:49.416 [info] Enablement state of the vscode.git extension: true.
+2025-03-03 20:43:49.416 [info] Successfully registered Git commit message provider.
+2025-03-03 20:43:50.083 [info] Logged in as Edouard06
+2025-03-03 20:43:51.050 [info] Got Copilot token for Edouard06
+2025-03-03 20:43:51.492 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-03 20:43:51.492 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-03 20:43:51.506 [info] Registering default platform agent...
+2025-03-03 20:43:51.913 [info] Fetched model metadata in 855ms dd6a2bb8-982c-4764-bf82-39ecb9077f73
+2025-03-03 20:43:52.016 [info] activationBlocker from 'languageModelAccess' took for 2490ms
+2025-03-03 21:08:51.191 [info] Logged in as Edouard06
+2025-03-03 21:08:51.848 [info] Got Copilot token for Edouard06
+2025-03-03 21:08:52.168 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-03 21:33:52.006 [info] Logged in as Edouard06
+2025-03-03 21:33:52.681 [info] Got Copilot token for Edouard06
+2025-03-03 21:33:52.991 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-03 21:33:53.845 [info] Fetched model metadata in 615ms 3a528e3b-2afe-46fb-a44c-d2c9e6519f66
+2025-03-03 21:58:52.834 [info] Logged in as Edouard06
+2025-03-03 21:58:53.626 [info] Got Copilot token for Edouard06
+2025-03-03 21:58:53.952 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-03 22:13:54.803 [info] Fetched model metadata in 581ms 711b2030-054c-4102-9cea-29b822bb9242

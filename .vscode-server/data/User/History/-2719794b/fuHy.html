@@ -1,0 +1,9 @@
+<div *ngFor="let country of olympics$ | async">
+    <div (click)="onCountryClick(country)">
+      <!-- Afficher les informations du pays -->
+      <h2>{{ country.country }}</h2>
+      <p>Total Medals: {{ totalMedals(country) }}</p>
+      <p>Total Athletes: {{ totalAthletes(country) }}</p>
+    </div>
+  </div>
+  

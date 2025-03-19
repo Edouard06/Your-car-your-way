@@ -1,0 +1,52 @@
+2025-02-28 18:44:41.060 [info] 
+
+
+
+
+2025-02-28 18:44:41.074 [info] Extension host agent started.
+2025-02-28 18:44:41.168 [info] [127.0.0.1][8b28a011][ManagementConnection] New connection established.
+2025-02-28 18:44:41.177 [info] Deleted marked for removal extension from disk angular.ng-template /home/edouard/.vscode-server/extensions/angular.ng-template-19.1.0
+2025-02-28 18:44:41.178 [info] Marked extension as removed angular.ng-template-19.1.0
+2025-02-28 18:44:41.343 [info] [127.0.0.1][620493c0][ExtensionHostConnection] New connection established.
+2025-02-28 18:44:51.184 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 18:44:51.185 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 18:44:51.186 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-02-28 18:44:51.191 [info] [127.0.0.1][620493c0][ExtensionHostConnection] <5870> Launched Extension Host Process.
+2025-02-28 18:45:04.569 [info] Getting Manifest... vscjava.vscode-java-pack
+2025-02-28 18:45:04.912 [info] Installing extension: vscjava.vscode-java-pack {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"}}
+2025-02-28 18:45:05.821 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2025-02-28 18:45:06.025 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2025-02-28 18:45:06.053 [info] Getting Manifest... redhat.java
+2025-02-28 18:45:06.146 [info] Getting Manifest... vscjava.vscode-java-debug
+2025-02-28 18:45:06.214 [info] Getting Manifest... vscjava.vscode-maven
+2025-02-28 18:45:06.278 [info] Getting Manifest... vscjava.vscode-java-test
+2025-02-28 18:45:06.326 [info] Getting Manifest... vscjava.vscode-java-dependency
+2025-02-28 18:45:06.411 [info] Getting Manifest... vscjava.vscode-gradle
+2025-02-28 18:45:06.466 [info] Installing extension: visualstudioexptteam.vscodeintellicode {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.467 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.467 [info] Installing extension: redhat.java {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.468 [info] Installing extension: vscjava.vscode-java-debug {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.468 [info] Installing extension: vscjava.vscode-maven {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.468 [info] Installing extension: vscjava.vscode-java-test {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.469 [info] Installing extension: vscjava.vscode-java-dependency {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:06.469 [info] Installing extension: vscjava.vscode-gradle {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/edouard/.vscode-server/extensions/extensions.json","external":"file:///home/edouard/.vscode-server/extensions/extensions.json","path":"/home/edouard/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-28 18:45:09.290 [info] Extension signature verification result for vscjava.vscode-java-dependency: Success. Executed: true. Duration: 1473ms.
+2025-02-28 18:45:09.292 [info] Extension signature verification result for vscjava.vscode-java-debug: Success. Executed: true. Duration: 1577ms.
+2025-02-28 18:45:09.330 [info] Extension signature verification result for vscjava.vscode-java-pack: Success. Executed: true. Duration: 1352ms.
+2025-02-28 18:45:09.441 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/vscjava.vscode-java-dependency-0.24.1: vscjava.vscode-java-dependency
+2025-02-28 18:45:09.472 [info] Renamed to /home/edouard/.vscode-server/extensions/vscjava.vscode-java-dependency-0.24.1
+2025-02-28 18:45:09.688 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/vscjava.vscode-java-debug-0.58.1: vscjava.vscode-java-debug
+2025-02-28 18:45:09.698 [info] Renamed to /home/edouard/.vscode-server/extensions/vscjava.vscode-java-debug-0.58.1
+2025-02-28 18:45:09.818 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/vscjava.vscode-java-pack-0.29.0: vscjava.vscode-java-pack
+2025-02-28 18:45:09.829 [info] Renamed to /home/edouard/.vscode-server/extensions/vscjava.vscode-java-pack-0.29.0
+2025-02-28 18:45:10.331 [info] Extension signature verification result for vscjava.vscode-java-test: Success. Executed: true. Duration: 920ms.
+2025-02-28 18:45:10.461 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/vscjava.vscode-java-test-0.43.0: vscjava.vscode-java-test
+2025-02-28 18:45:10.476 [info] Renamed to /home/edouard/.vscode-server/extensions/vscjava.vscode-java-test-0.43.0
+2025-02-28 18:45:10.617 [info] Extension signature verification result for visualstudioexptteam.intellicode-api-usage-examples: Success. Executed: true. Duration: 935ms.
+2025-02-28 18:45:10.775 [info] [127.0.0.1][8b28a011][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-28 18:45:10.883 [info] [127.0.0.1][620493c0][ExtensionHostConnection] <5870> Extension Host Process exited with code: 0, signal: null.
+2025-02-28 18:45:10.982 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9: visualstudioexptteam.intellicode-api-usage-examples
+2025-02-28 18:45:11.000 [info] Renamed to /home/edouard/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-02-28 18:45:12.607 [info] Extension signature verification result for vscjava.vscode-maven: Success. Executed: true. Duration: 1016ms.
+2025-02-28 18:45:13.048 [info] Extracted extension to file:///home/edouard/.vscode-server/extensions/vscjava.vscode-maven-0.44.0: vscjava.vscode-maven
+2025-02-28 18:45:13.063 [info] Renamed to /home/edouard/.vscode-server/extensions/vscjava.vscode-maven-0.44.0

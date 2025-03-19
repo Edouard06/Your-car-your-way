@@ -1,0 +1,16 @@
+<div *ngIf="countryData" class="country-detail">
+  <div class="country-detail-header">
+    <h2>Détails pour {{ countryData.country }}</h2>
+    <p>Nombre de participations : {{ countryData.participations.length }}</p>
+    <p>Total de médailles : {{ getTotalMedals() }}</p>
+    <p>Total d'athlètes : {{ getTotalAthletes() }}</p>
+  </div>
+
+  <div style="width: 100%; max-width: 600px; margin: auto;" *ngIf="lineChartSettings">
+    <app-line-chart [settings]="lineChartSettings"></app-line-chart>
+  </div>
+
+  <div class="return-button-container">
+    <button class="btn-return" (click)="goBack()">Retour</button>
+  </div>
+</div>

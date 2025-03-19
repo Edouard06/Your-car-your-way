@@ -1,0 +1,3 @@
+2025-03-03 20:43:47.293 [info] Log level: Info
+2025-03-03 20:43:47.536 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-03-03 21:37:52.242 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Edouard06/p3-backend: Error: No GitHub authentication session available.
