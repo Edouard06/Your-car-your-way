@@ -1,12 +1,24 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, ViewChild } from '@angular/core';
+import { Router, RouterOutlet } from '@angular/router';
+import { LiveSupportComponent } from './components/talkjs-chat/talkjs-chat.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, LiveSupportComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'your-car-your-way';
+  title = 'YOUR-CAR-YOUR-WAY';
+
+  @ViewChild(LiveSupportComponent) supportChat!: LiveSupportComponent;
+
+  constructor(private router: Router) {}
+
+  onToggleChanged(event: Event): void {
+    const toggled = (event.target as HTMLInputElement).checked;
+    this.supportChat.supportMode = toggled;
+    this.supportChat.reloadChat();
+  }
 }
